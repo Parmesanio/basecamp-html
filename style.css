@@ -1,0 +1,75 @@
+/* RESET */
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+/* RESET  END */
+header {
+  background: #707070;
+  height: 70px;
+}
+header div {
+  width: 25%;
+}
+.brand {
+  float: left;
+  font-size: 2.2em;
+  line-height: 1.9;
+  margin-left: 10%;
+}
+.nav {
+  float: right;
+  line-height: 4.3;
+}
+.nav a {
+  margin-right: 10%;
+}
+section {
+  min-height: 60vh;
+}
+#showcase {
+  background: #000;
+  color: #e8df5e;
+  font-size: 3em;
+  position: relative;
+}
+#showcase h1 {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 100%;
+}
+section div {
+  display: inline-block;
+  height: 40vh;
+  margin: 1em;
+  width: 45%;
+}
+.greenishBox {
+  background: #a4ffd7;
+  border-radius: 10px;
+  margin: 2.5em;
+  width: 26%;
+}
+.orangeBox {
+  background: #fec36c;
+}
+div p {
+  font-size: ;
+  margin: 0 auto;
+  text-align: left;
+  width: 70%;
+}
+footer {
+  background: #3a3a56;
+  height: 70px;
+}
